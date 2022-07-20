@@ -17,7 +17,7 @@ function Home() {
           };
         });
         console.log("post", posts);
-        setPosts(posts) ;
+        setPosts(posts);
       });
   }, []);
 
